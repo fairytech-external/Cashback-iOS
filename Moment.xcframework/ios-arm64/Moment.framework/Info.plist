@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.7.0</string>
+	<string>0.7.1</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>iPhoneOS</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>701</string>
+	<string>705</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -42,8 +42,6 @@
 	<string>15F31d</string>
 	<key>MinimumOSVersion</key>
 	<string>14.0</string>
-	<key>OnPrem</key>
-	<true/>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
