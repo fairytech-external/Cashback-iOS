@@ -12865,56 +12865,56 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 2354,
+      "offset": 2305,
       "length": 15,
       "value": "\"callDeviceApi\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 2410,
+      "offset": 2361,
       "length": 24,
       "value": "\"openLinkFromBrowserApp\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 2500,
+      "offset": 2451,
       "length": 15,
       "value": "\"callDeviceApi\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 2556,
+      "offset": 2507,
       "length": 24,
       "value": "\"openLinkFromBrowserApp\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 5551,
+      "offset": 5592,
       "length": 13,
       "value": "\"Coordinator\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 9926,
+      "offset": 10182,
       "length": 22,
       "value": "\"CallDeviceApiHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 12508,
+      "offset": 12763,
       "length": 31,
       "value": "\"OpenLinkFromBrowserAppHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 14764,
+      "offset": 15019,
       "length": 15,
       "value": "\"FinishHandler\""
     },
