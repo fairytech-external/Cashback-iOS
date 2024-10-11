@@ -277,6 +277,441 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Moment"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CashbackViewControllerDelegate",
+        "printedName": "CashbackViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cashbackViewControllerDidFinish",
+            "printedName": "cashbackViewControllerDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CashbackViewController",
+                "printedName": "Moment.CashbackViewController",
+                "usr": "c:@M@Moment@objc(cs)CashbackViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Moment30CashbackViewControllerDelegateP08cashbackcD9DidFinishyyAA0bcD0CF",
+            "mangledName": "$s6Moment30CashbackViewControllerDelegateP08cashbackcD9DidFinishyyAA0bcD0CF",
+            "moduleName": "Moment",
+            "genericSig": "<τ_0_0 where τ_0_0 : Moment.CashbackViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : Moment.CashbackViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cashbackViewController",
+            "printedName": "cashbackViewController(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CashbackViewController",
+                "printedName": "Moment.CashbackViewController",
+                "usr": "c:@M@Moment@objc(cs)CashbackViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CashbackError",
+                "printedName": "Moment.CashbackError",
+                "usr": "s:6Moment13CashbackErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Moment30CashbackViewControllerDelegateP08cashbackcD0_16didFailWithErroryAA0bcD0C_AA0bJ0OtF",
+            "mangledName": "$s6Moment30CashbackViewControllerDelegateP08cashbackcD0_16didFailWithErroryAA0bcD0C_AA0bJ0OtF",
+            "moduleName": "Moment",
+            "genericSig": "<τ_0_0 where τ_0_0 : Moment.CashbackViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : Moment.CashbackViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Moment30CashbackViewControllerDelegateP",
+        "mangledName": "$s6Moment30CashbackViewControllerDelegateP",
+        "moduleName": "Moment",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CashbackViewController",
+        "printedName": "CashbackViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Moment.CashbackViewControllerDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvp",
+            "mangledName": "$s6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvp",
+            "moduleName": "Moment",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Moment.CashbackViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CashbackViewControllerDelegate",
+                        "printedName": "any Moment.CashbackViewControllerDelegate",
+                        "usr": "s:6Moment30CashbackViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvg",
+                "mangledName": "$s6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvg",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Moment.CashbackViewControllerDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CashbackViewControllerDelegate",
+                        "printedName": "any Moment.CashbackViewControllerDelegate",
+                        "usr": "s:6Moment30CashbackViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvs",
+                "mangledName": "$s6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvs",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvM",
+                "mangledName": "$s6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvM",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Moment@objc(cs)CashbackViewController(im)viewDidLoad",
+            "mangledName": "$s6Moment22CashbackViewControllerC11viewDidLoadyyF",
+            "moduleName": "Moment",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CashbackViewController",
+                "printedName": "Moment.CashbackViewController",
+                "usr": "c:@M@Moment@objc(cs)CashbackViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Moment@objc(cs)CashbackViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s6Moment22CashbackViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Moment",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Moment.CashbackViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CashbackViewController",
+                    "printedName": "Moment.CashbackViewController",
+                    "usr": "c:@M@Moment@objc(cs)CashbackViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Moment@objc(cs)CashbackViewController(im)initWithCoder:",
+            "mangledName": "$s6Moment22CashbackViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Moment",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Moment@objc(cs)CashbackViewController",
+        "mangledName": "$s6Moment22CashbackViewControllerC",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -388,7 +823,7 @@
           {
             "kind": "Function",
             "name": "launchCashbackUI",
-            "printedName": "launchCashbackUI(onFinish:)",
+            "printedName": "launchCashbackUI(onFinish:onFailure:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -421,11 +856,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any Swift.Error) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any Swift.Error) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Moment0A15CashbackServiceC06launchB2UI8onFinishAA0bE0VyycSg_tFZ",
-            "mangledName": "$s6Moment0A15CashbackServiceC06launchB2UI8onFinishAA0bE0VyycSg_tFZ",
+            "usr": "s:6Moment0A15CashbackServiceC06launchB2UI8onFinish0F7FailureAA0bE0VyycSg_ys5Error_pcSgtFZ",
+            "mangledName": "$s6Moment0A15CashbackServiceC06launchB2UI8onFinish0F7FailureAA0bE0VyycSg_ys5Error_pcSgtFZ",
             "moduleName": "Moment",
             "static": true,
             "declAttributes": [
@@ -612,59 +1074,6 @@
           },
           {
             "kind": "Var",
-            "name": "APIError",
-            "printedName": "APIError",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Moment.CashbackError.Type) -> (any Swift.Error) -> Moment.CashbackError",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(any Swift.Error) -> Moment.CashbackError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CashbackError",
-                        "printedName": "Moment.CashbackError",
-                        "usr": "s:6Moment13CashbackErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Moment.CashbackError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CashbackError",
-                        "printedName": "Moment.CashbackError",
-                        "usr": "s:6Moment13CashbackErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Moment13CashbackErrorO8APIErroryACs0C0_pcACmF",
-            "mangledName": "$s6Moment13CashbackErrorO8APIErroryACs0C0_pcACmF",
-            "moduleName": "Moment",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "initializationError",
             "printedName": "initializationError",
             "children": [
@@ -819,6 +1228,23 @@
             "mangledName": "$s10Foundation14LocalizedErrorP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -2278,6 +2704,33 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -7613,6 +8066,48 @@
       "value": "7"
     },
     {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
+      "kind": "StringLiteral",
+      "offset": 2184,
+      "length": 15,
+      "value": "\"callDeviceApi\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 24,
+      "value": "\"openLinkFromBrowserApp\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
+      "kind": "StringLiteral",
+      "offset": 2289,
+      "length": 8,
+      "value": "\"finish\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
+      "kind": "StringLiteral",
+      "offset": 2360,
+      "length": 22,
+      "value": "\"CallDeviceApiHandler\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
+      "kind": "StringLiteral",
+      "offset": 5010,
+      "length": 31,
+      "value": "\"OpenLinkFromBrowserAppHandler\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
+      "kind": "StringLiteral",
+      "offset": 7287,
+      "length": 15,
+      "value": "\"FinishHandler\""
+    },
+    {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/ConfigManager.swift",
       "kind": "Dictionary",
       "offset": 432,
@@ -12865,58 +13360,9 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 2305,
-      "length": 15,
-      "value": "\"callDeviceApi\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
-      "kind": "StringLiteral",
-      "offset": 2361,
-      "length": 24,
-      "value": "\"openLinkFromBrowserApp\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
-      "kind": "StringLiteral",
-      "offset": 2451,
-      "length": 15,
-      "value": "\"callDeviceApi\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
-      "kind": "StringLiteral",
-      "offset": 2507,
-      "length": 24,
-      "value": "\"openLinkFromBrowserApp\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
-      "kind": "StringLiteral",
-      "offset": 5592,
+      "offset": 7793,
       "length": 13,
       "value": "\"Coordinator\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
-      "kind": "StringLiteral",
-      "offset": 10182,
-      "length": 22,
-      "value": "\"CallDeviceApiHandler\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
-      "kind": "StringLiteral",
-      "offset": 12763,
-      "length": 31,
-      "value": "\"OpenLinkFromBrowserAppHandler\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
-      "kind": "StringLiteral",
-      "offset": 15019,
-      "length": 15,
-      "value": "\"FinishHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/business_match\/v1\/match_action.pb.swift",
