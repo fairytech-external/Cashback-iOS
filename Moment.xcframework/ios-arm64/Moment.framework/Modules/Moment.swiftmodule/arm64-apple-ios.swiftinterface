@@ -21,15 +21,25 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol CashbackViewControllerDelegate : AnyObject {
+  func cashbackViewControllerDidFinish(_ viewController: Moment.CashbackViewController)
+  func cashbackViewController(_ viewController: Moment.CashbackViewController, didFailWithError error: Moment.CashbackError)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CashbackViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any Moment.CashbackViewControllerDelegate)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers final public class MomentCashbackService : Swift.Sendable {
   public static let shared: Moment.MomentCashbackService
   public static func setUserId(_ userId: Swift.String)
-  @_Concurrency.MainActor public static func launchCashbackUI(onFinish: (() -> Swift.Void)? = nil) -> Moment.CashbackUI
+  @_Concurrency.MainActor public static func launchCashbackUI(onFinish: (() -> Swift.Void)? = nil, onFailure: ((any Swift.Error) -> Swift.Void)? = nil) -> Moment.CashbackUI
   @objc deinit
 }
 public enum CashbackError : Swift.Error {
   case userIdNotFound
-  case APIError(any Swift.Error)
   case initializationError(any Swift.Error)
 }
 extension Moment.CashbackError : Foundation.LocalizedError {
