@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Moment-Swift.h</key>
 		<data>
-		Zr8Yz4RMhHfl9sVNN2SUblyg/YA=
+		k8kIbqKhdl3DTCcjrhClVHBvAkg=
 		</data>
 		<key>Headers/Moment.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+aXEquRqCj2brN6q6U0r8iaw0VE=
+		DI9NpYHVrNDgOmfjy/BH8dOZzkE=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		p64jytTm8delDpzBPNbv4pHJKQQ=
+		DNmkQB8IVPtVCtw9t1VrNh4C7I4=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		X7UK8TbJbV1FLWuWCZllS8rih+g=
+		WJoaCwoLKsh6J14/hAxNoySHGSo=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		X7UK8TbJbV1FLWuWCZllS8rih+g=
+		WJoaCwoLKsh6J14/hAxNoySHGSo=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OEKUKrfCZHEnN4ze+pZRscaWU+g=
+		Da9kWoecFsGfX0yP6Og4nLxnQcY=
 		</data>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		p64jytTm8delDpzBPNbv4pHJKQQ=
+		DNmkQB8IVPtVCtw9t1VrNh4C7I4=
 		</data>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UtuYxP8DaS/KbrHET69v4KdeG3w=
+		6lMGNdk0qfwMmgJngyoDhu8i9zo=
 		</data>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UtuYxP8DaS/KbrHET69v4KdeG3w=
+		6lMGNdk0qfwMmgJngyoDhu8i9zo=
 		</data>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wB+KBoj7cX6a3c7acNV0V631zjQ=
+		64JzcZsEELLYObSzLS7d0zttQ6o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VJrYgbamq7EqnTe/ruOJb56jSs4Lyyi99mTQ/zigMQM=
+			nBOtv89YW0PYUsNz6IRrxA2tumeu9b1piN8f2T94WQE=
 			</data>
 		</dict>
 		<key>Headers/Moment.h</key>
@@ -85,14 +85,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6koIyDtWZgyrIRe4yqLa4mKbXjNqMLcf2PlWpvH1kWk=
+			KAChiHOUjH7Y0yo0ggecBQ7YplBKqfChiTMsGzjJdxk=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iniG6rhflp9ITpuQ2URH+N3W21dugRbr4TH18bYBUCk=
+			dS/cz4YLWOJPZfpqMZpO8Gr4vBdhnywe7+YS9o2Zz2w=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -106,28 +106,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iniG6rhflp9ITpuQ2URH+N3W21dugRbr4TH18bYBUCk=
+			dS/cz4YLWOJPZfpqMZpO8Gr4vBdhnywe7+YS9o2Zz2w=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1/DEiQz5u7Kz5HcRfIu4jztr04nworHWIRjxuWOHl4g=
+			j1moOlMxWmzt7BRzjnmc1xBKUKvvZO6W/T4TBetWM0s=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6koIyDtWZgyrIRe4yqLa4mKbXjNqMLcf2PlWpvH1kWk=
+			KAChiHOUjH7Y0yo0ggecBQ7YplBKqfChiTMsGzjJdxk=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0OHJN5sfC40+APqqdV/BjySqbUl/QBzEaBeMD2ri5/U=
+			Ab/XPYS3JN0+T0GJywJAmw1kaMmZRGnINDQnJ5vNpA8=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -141,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0OHJN5sfC40+APqqdV/BjySqbUl/QBzEaBeMD2ri5/U=
+			Ab/XPYS3JN0+T0GJywJAmw1kaMmZRGnINDQnJ5vNpA8=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PQGqJra72jxAwAtpfJ2Xjn0rNoXq4xlg1JVT3jZ4cdo=
+			Ojv7adJa2VG1vY5xiTu27BqC7P6UFNVGHHZhxuWqaeM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

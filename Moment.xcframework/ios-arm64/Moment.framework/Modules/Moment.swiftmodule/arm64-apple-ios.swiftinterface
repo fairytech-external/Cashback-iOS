@@ -21,6 +21,17 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol CashbackViewControllerDelegate : AnyObject {
+  func cashbackViewControllerDidFinish(_ viewController: Moment.CashbackViewController)
+  func cashbackViewController(_ viewController: Moment.CashbackViewController, didFailWithError error: Moment.CashbackError)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CashbackViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any Moment.CashbackViewControllerDelegate)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
 @_hasMissingDesignatedInitializers final public class MomentCashbackService : Swift.Sendable {
   public static let shared: Moment.MomentCashbackService
   public static func setUserId(_ userId: Swift.String)
@@ -37,10 +48,5 @@ extension Moment.CashbackError : Foundation.LocalizedError {
 }
 @_hasMissingDesignatedInitializers public class MomentConstants {
   public static let notificationKey: Swift.String
-  @objc deinit
-}
-@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class CashbackView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public init(onFinish: (() -> Swift.Void)? = nil, onFailure: ((Moment.CashbackError) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func removeFromSuperview()
   @objc deinit
 }
