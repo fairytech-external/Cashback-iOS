@@ -293,6 +293,389 @@
         "moduleName": "Moment"
       },
       {
+        "kind": "TypeDecl",
+        "name": "CashbackViewControllerDelegate",
+        "printedName": "CashbackViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cashbackViewControllerDidFinish",
+            "printedName": "cashbackViewControllerDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CashbackViewController",
+                "printedName": "Moment.CashbackViewController",
+                "usr": "c:@M@Moment@objc(cs)CashbackViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Moment30CashbackViewControllerDelegateP08cashbackcD9DidFinishyyAA0bcD0CF",
+            "mangledName": "$s6Moment30CashbackViewControllerDelegateP08cashbackcD9DidFinishyyAA0bcD0CF",
+            "moduleName": "Moment",
+            "genericSig": "<τ_0_0 where τ_0_0 : Moment.CashbackViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : Moment.CashbackViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cashbackViewController",
+            "printedName": "cashbackViewController(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CashbackViewController",
+                "printedName": "Moment.CashbackViewController",
+                "usr": "c:@M@Moment@objc(cs)CashbackViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CashbackError",
+                "printedName": "Moment.CashbackError",
+                "usr": "s:6Moment13CashbackErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Moment30CashbackViewControllerDelegateP08cashbackcD0_16didFailWithErroryAA0bcD0C_AA0bJ0OtF",
+            "mangledName": "$s6Moment30CashbackViewControllerDelegateP08cashbackcD0_16didFailWithErroryAA0bcD0C_AA0bJ0OtF",
+            "moduleName": "Moment",
+            "genericSig": "<τ_0_0 where τ_0_0 : Moment.CashbackViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : Moment.CashbackViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Moment30CashbackViewControllerDelegateP",
+        "mangledName": "$s6Moment30CashbackViewControllerDelegateP",
+        "moduleName": "Moment",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CashbackViewController",
+        "printedName": "CashbackViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "Moment.CashbackViewControllerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvp",
+            "mangledName": "$s6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvp",
+            "moduleName": "Moment",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Moment.CashbackViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CashbackViewControllerDelegate",
+                        "printedName": "Moment.CashbackViewControllerDelegate",
+                        "usr": "s:6Moment30CashbackViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvg",
+                "mangledName": "$s6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvg",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Moment.CashbackViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CashbackViewControllerDelegate",
+                        "printedName": "Moment.CashbackViewControllerDelegate",
+                        "usr": "s:6Moment30CashbackViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvs",
+                "mangledName": "$s6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvs",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvM",
+                "mangledName": "$s6Moment22CashbackViewControllerC8delegateAA0bcD8Delegate_pSgvM",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Moment@objc(cs)CashbackViewController(im)viewDidLoad",
+            "mangledName": "$s6Moment22CashbackViewControllerC11viewDidLoadyyF",
+            "moduleName": "Moment",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CashbackViewController",
+                "printedName": "Moment.CashbackViewController",
+                "usr": "c:@M@Moment@objc(cs)CashbackViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Moment@objc(cs)CashbackViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s6Moment22CashbackViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Moment",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Moment.CashbackViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CashbackViewController",
+                    "printedName": "Moment.CashbackViewController",
+                    "usr": "c:@M@Moment@objc(cs)CashbackViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Moment@objc(cs)CashbackViewController(im)initWithCoder:",
+            "mangledName": "$s6Moment22CashbackViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "Moment",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Moment@objc(cs)CashbackViewController",
+        "mangledName": "$s6Moment22CashbackViewControllerC",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1661,229 +2044,6 @@
         "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Moment"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "CashbackView",
-        "printedName": "CashbackView",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(onFinish:onFailure:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CashbackView",
-                "printedName": "Moment.CashbackView",
-                "usr": "c:@M@Moment@objc(cs)CashbackView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Moment.CashbackError) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Moment.CashbackError) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "CashbackError",
-                        "printedName": "Moment.CashbackError",
-                        "usr": "s:6Moment13CashbackErrorO"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6Moment12CashbackViewC8onFinish0D7FailureACyycSg_yAA0B5ErrorOcSgtcfc",
-            "mangledName": "$s6Moment12CashbackViewC8onFinish0D7FailureACyycSg_yAA0B5ErrorOcSgtcfc",
-            "moduleName": "Moment",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "removeFromSuperview",
-            "printedName": "removeFromSuperview()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Moment@objc(cs)CashbackView(im)removeFromSuperview",
-            "mangledName": "$s6Moment12CashbackViewC19removeFromSuperviewyyF",
-            "moduleName": "Moment",
-            "overriding": true,
-            "objc_name": "removeFromSuperview",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(frame:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CashbackView",
-                "printedName": "Moment.CashbackView",
-                "usr": "c:@M@Moment@objc(cs)CashbackView"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGRect",
-                "printedName": "CoreFoundation.CGRect",
-                "usr": "c:@S@CGRect"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Moment@objc(cs)CashbackView(im)initWithFrame:",
-            "mangledName": "$s6Moment12CashbackViewC5frameACSo6CGRectV_tcfc",
-            "moduleName": "Moment",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithFrame:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Custom",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@Moment@objc(cs)CashbackView",
-        "mangledName": "$s6Moment12CashbackViewC",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "Custom",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -8991,6 +9151,13 @@
       "value": "8"
     },
     {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1562,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/token\/v1\/get_access_token.pb.swift",
       "kind": "IntegerLiteral",
       "offset": 1561,
@@ -9756,511 +9923,518 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 661,
+      "offset": 674,
       "length": 8,
       "value": "\"callId\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 705,
+      "offset": 718,
       "length": 8,
       "value": "\"method\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "Array",
-      "offset": 825,
+      "offset": 838,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 943,
+      "offset": 956,
       "length": 16,
       "value": "\"MessageHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 961,
+      "offset": 974,
       "length": 39,
       "value": "\"Failed to serialize response to JSON.\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1113,
+      "offset": 1126,
       "length": 4,
       "value": "\"\\\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1125,
+      "offset": 1138,
       "length": 6,
       "value": "\"\\\\\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1171,
+      "offset": 1184,
       "length": 4,
       "value": "\"\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1183,
+      "offset": 1196,
       "length": 6,
       "value": "\"\\\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1229,
+      "offset": 1242,
       "length": 3,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1240,
+      "offset": 1253,
       "length": 5,
       "value": "\"\\'\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1285,
+      "offset": 1298,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1297,
+      "offset": 1310,
       "length": 5,
       "value": "\"\\n\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1342,
+      "offset": 1355,
       "length": 4,
       "value": "\"\r\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1354,
+      "offset": 1367,
       "length": 5,
       "value": "\"\\r\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1399,
+      "offset": 1412,
       "length": 10,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1417,
+      "offset": 1430,
       "length": 9,
       "value": "\"\\u2028\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1466,
+      "offset": 1479,
       "length": 10,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1484,
+      "offset": 1497,
       "length": 9,
       "value": "\"\\u2029\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1517,
+      "offset": 1530,
       "length": 124,
       "value": "\"(function() {\n    window.postMessage(JSON.parse('\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1606,
+      "offset": 1619,
       "length": 5,
       "value": "\"'), '*');\n})();\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1779,
+      "offset": 1792,
       "length": 16,
       "value": "\"MessageHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1836,
+      "offset": 1849,
       "length": 71,
       "value": "\"Error evaluating JavaScript(\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1874,
+      "offset": 1887,
       "length": 1,
       "value": "\"): \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 1906,
+      "offset": 1919,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 2027,
+      "offset": 2040,
       "length": 16,
       "value": "\"MessageHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 2045,
+      "offset": 2058,
       "length": 51,
       "value": "\"Successfully called JavaScript function \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 2095,
+      "offset": 2108,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 2184,
+      "offset": 2197,
       "length": 15,
       "value": "\"callDeviceApi\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 2240,
+      "offset": 2253,
       "length": 24,
       "value": "\"openLinkFromBrowserApp\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 2289,
+      "offset": 2302,
       "length": 8,
       "value": "\"finish\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 2360,
+      "offset": 2373,
       "length": 22,
       "value": "\"CallDeviceApiHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 2865,
+      "offset": 2878,
       "length": 6,
       "value": "\"path\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 2920,
+      "offset": 2933,
       "length": 8,
       "value": "\"method\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 2984,
+      "offset": 2997,
       "length": 9,
       "value": "\"request\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 3053,
+      "offset": 3066,
       "length": 32,
       "value": "\"Missing parameters in payload.\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 3566,
+      "offset": 3579,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 3631,
+      "offset": 3644,
       "length": 62,
       "value": "\"Calling \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 3653,
+      "offset": 3666,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 3661,
+      "offset": 3674,
       "length": 4,
       "value": "\" with request: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 3692,
+      "offset": 3705,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 4028,
+      "offset": 4041,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "BooleanLiteral",
-      "offset": 4039,
+      "offset": 4052,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 4065,
+      "offset": 4078,
       "length": 10,
       "value": "\"response\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 4425,
+      "offset": 4438,
       "length": 65,
       "value": "\"Failed to call \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 4450,
+      "offset": 4463,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 4458,
+      "offset": 4471,
       "length": 4,
       "value": "\" with request: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 4489,
+      "offset": 4502,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 4612,
+      "offset": 4625,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "BooleanLiteral",
-      "offset": 4623,
+      "offset": 4636,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 4650,
+      "offset": 4663,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 5010,
+      "offset": 5023,
       "length": 31,
       "value": "\"OpenLinkFromBrowserAppHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 5373,
+      "offset": 5386,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 5462,
+      "offset": 5475,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "BooleanLiteral",
-      "offset": 5473,
+      "offset": 5486,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 5496,
+      "offset": 5509,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 5507,
+      "offset": 5520,
       "length": 28,
       "value": "\"Invalid payload \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 5534,
+      "offset": 5547,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 5849,
+      "offset": 5862,
       "length": 43,
       "value": "\"Missing parameters in payload. \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 5891,
+      "offset": 5904,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 6175,
+      "offset": 6188,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "BooleanLiteral",
-      "offset": 6186,
+      "offset": 6199,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 6209,
+      "offset": 6222,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 6220,
+      "offset": 6233,
       "length": 13,
       "value": "\"Invalid URL\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 6288,
+      "offset": 6301,
       "length": 22,
       "value": "\"Invalid URL: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 6309,
+      "offset": 6322,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "Dictionary",
-      "offset": 6688,
+      "offset": 6701,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 6778,
+      "offset": 6791,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 6818,
+      "offset": 6831,
       "length": 9,
       "value": "\"message\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 6845,
+      "offset": 6858,
       "length": 20,
       "value": "\"Failed to open URL\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 7287,
+      "offset": 7300,
       "length": 15,
       "value": "\"FinishHandler\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "StringLiteral",
-      "offset": 7851,
+      "offset": 7846,
+      "length": 13,
+      "value": "\"postMessage\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
+      "kind": "StringLiteral",
+      "offset": 7977,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/Handlers.swift",
       "kind": "BooleanLiteral",
-      "offset": 7862,
+      "offset": 7988,
       "length": 4,
       "value": "true"
     },
@@ -11989,140 +12163,182 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 882,
-      "length": 68,
-      "value": "\"notification authorization status: \""
+      "offset": 989,
+      "length": 12,
+      "value": "\"authorized\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 949,
+      "offset": 1051,
+      "length": 8,
+      "value": "\"denied\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 1116,
+      "length": 15,
+      "value": "\"notDetermined\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 1186,
+      "length": 13,
+      "value": "\"provisional\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 1244,
+      "length": 9,
+      "value": "\"unknown\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1437,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1515,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1609,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1699,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1749,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 1808,
+      "length": 70,
+      "value": "\"[Will send: \""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 1831,
+      "length": 1,
+      "value": "\"] notification authorization status: \""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
+      "kind": "StringLiteral",
+      "offset": 1877,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1067,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1137,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1223,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1305,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1347,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1573,
+      "offset": 2113,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1637,
+      "offset": 2177,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1685,
+      "offset": 2225,
       "length": 44,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1694,
+      "offset": 2234,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1728,
+      "offset": 2268,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1922,
+      "offset": 2462,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 2673,
+      "offset": 3213,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2685,
+      "offset": 3225,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "FloatLiteral",
-      "offset": 3058,
+      "offset": 3598,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 3402,
+      "offset": 3942,
       "length": 32,
       "value": "\"Failed to download image data:\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 3737,
+      "offset": 4277,
       "length": 25,
       "value": "\"custom_client_image.png\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 3898,
+      "offset": 4438,
       "length": 17,
       "value": "\"remoteThumbnail\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 4150,
+      "offset": 4690,
       "length": 41,
       "value": "\"Error creating notification attachment:\""
     },
@@ -12878,28 +13094,49 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
       "kind": "StringLiteral",
-      "offset": 1487,
-      "length": 66,
-      "value": "\"No notification for \""
+      "offset": 1370,
+      "length": 71,
+      "value": "\"Sending notification for \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
       "kind": "StringLiteral",
-      "offset": 1526,
+      "offset": 1414,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
       "kind": "StringLiteral",
-      "offset": 1552,
+      "offset": 1440,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
       "kind": "StringLiteral",
-      "offset": 1823,
+      "offset": 1587,
+      "length": 66,
+      "value": "\"No notification for \""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 1626,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 1652,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
+      "kind": "StringLiteral",
+      "offset": 1923,
       "length": 30,
       "value": "\"Failed to send notification:\""
     },
@@ -23210,245 +23447,231 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 1534,
+      "offset": 1533,
       "length": 12,
       "value": "\"Loading...\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 1862,
+      "offset": 1861,
       "length": 12,
       "value": "\"CashbackUI\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 1900,
+      "offset": 1899,
       "length": 60,
       "value": "\"Error loading cashback view: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 1959,
+      "offset": 1958,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3829,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 2221,
-      "length": 12,
-      "value": "\"Moment.CashbackView\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
-      "kind": "StringLiteral",
-      "offset": 6089,
+      "offset": 3384,
       "length": 5,
       "value": "\"IOS\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 6972,
+      "offset": 4267,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 7124,
+      "offset": 4419,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7297,
+      "offset": 4592,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 8260,
+      "offset": 5555,
       "length": 194,
       "value": "\"window.nativeApi = {\n    postMessage: function(message) {\n        window.webkit.messageHandlers.postMessage.postMessage(message);\n    }\n};\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8561,
+      "offset": 5856,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 8658,
+      "offset": 5953,
       "length": 588,
       "value": "\"(function() {\n    var meta = document.querySelector('meta[name=viewport]');\n    if (meta) {\n        meta.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');\n    } else {\n        var meta = document.createElement('meta');\n        meta.name = 'viewport';\n        meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';\n        document.getElementsByTagName('head')[0].appendChild(meta);\n    }\n})();\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9464,
+      "offset": 6759,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9763,
+      "offset": 7058,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9970,
+      "offset": 7265,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10026,
+      "offset": 7321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10084,
+      "offset": 7379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 10174,
+      "offset": 7469,
       "length": 13,
       "value": "\"postMessage\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 10744,
+      "offset": 8039,
       "length": 13,
       "value": "\"Coordinator\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 12175,
+      "offset": 9328,
       "length": 13,
       "value": "\"postMessage\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 12283,
+      "offset": 9436,
       "length": 27,
       "value": "\"Invalid message received.\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "Array",
-      "offset": 12502,
+      "offset": 9655,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 12568,
+      "offset": 9721,
       "length": 8,
       "value": "\"callId\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 12633,
+      "offset": 9786,
       "length": 8,
       "value": "\"method\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 12705,
+      "offset": 9858,
       "length": 41,
       "value": "\"Failed to parse message. \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 12745,
+      "offset": 9898,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 12839,
+      "offset": 9992,
       "length": 9,
       "value": "\"payload\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "Dictionary",
-      "offset": 12871,
+      "offset": 10024,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 12916,
+      "offset": 10069,
       "length": 41,
       "value": "\"Received message with method: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 12956,
+      "offset": 10109,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 13119,
+      "offset": 10272,
       "length": 23,
       "value": "\"cashbackLinkUrlOpened\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 13264,
+      "offset": 10417,
       "length": 29,
       "value": "\"Unhandled method: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 13292,
+      "offset": 10445,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 10656,
+      "offset": 7951,
       "length": 11,
       "value": "\"Moment.Coordinator\""
     },
