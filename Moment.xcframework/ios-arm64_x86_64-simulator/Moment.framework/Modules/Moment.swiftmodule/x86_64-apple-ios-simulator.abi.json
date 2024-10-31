@@ -277,6 +277,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2428,6 +2438,13 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Moment"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Moment"
       },
@@ -7466,35 +7483,35 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/VPN\/VPNManager.swift",
       "kind": "StringLiteral",
-      "offset": 3792,
+      "offset": 3847,
       "length": 33,
       "value": "\"Failed to load all preferences:\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/VPN\/VPNManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4059,
+      "offset": 4124,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/VPN\/VPNManager.swift",
       "kind": "StringLiteral",
-      "offset": 4749,
+      "offset": 4953,
       "length": 28,
       "value": "\"Failed to update user info\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/VPN\/VPNManager.swift",
       "kind": "StringLiteral",
-      "offset": 4928,
+      "offset": 5132,
       "length": 51,
       "value": "\"Failed to send user info update message: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/VPN\/VPNManager.swift",
       "kind": "StringLiteral",
-      "offset": 4978,
+      "offset": 5182,
       "length": 2,
       "value": "\"\""
     },
@@ -7514,92 +7531,99 @@
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
+      "kind": "Array",
+      "offset": 213,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 218,
+      "offset": 554,
       "length": 19,
       "value": "\"PacketFlowManager\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1077,
+      "offset": 1413,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1208,
+      "offset": 1544,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1442,
+      "offset": 1989,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 1869,
+      "offset": 2416,
       "length": 27,
       "value": "\"IP Packet Creation error:\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 2226,
+      "offset": 2773,
       "length": 46,
       "value": "\"Unrelayable packet: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 2271,
+      "offset": 2818,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3275,
+      "offset": 4027,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3378,
+      "offset": 4130,
       "length": 2,
       "value": "53"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 3685,
+      "offset": 4437,
       "length": 39,
       "value": "\"UDP Packet Processing error: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "StringLiteral",
-      "offset": 3723,
+      "offset": 4475,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4193,
+      "offset": 4945,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/PacketFlowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 4234,
+      "offset": 4986,
       "length": 5,
       "value": "false"
     },
@@ -7612,246 +7636,204 @@
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 18,
+      "value": "\"BridgeApiService\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "BooleanLiteral",
-      "offset": 915,
+      "offset": 972,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 963,
-      "length": 18,
-      "value": "\"BridgeApiService\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
-      "kind": "StringLiteral",
-      "offset": 998,
+      "offset": 1040,
       "length": 50,
       "value": "\"Invalid URL or unable to resolve URL components.\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1115,
-      "length": 18,
-      "value": "\"BridgeApiService\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
-      "kind": "StringLiteral",
-      "offset": 1150,
+      "offset": 1177,
       "length": 42,
       "value": "\"Original URLComponents: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1191,
+      "offset": 1218,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1225,
-      "length": 18,
-      "value": "\"BridgeApiService\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
-      "kind": "StringLiteral",
-      "offset": 1260,
+      "offset": 1272,
       "length": 27,
       "value": "\"Path to be added: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1286,
+      "offset": 1298,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1402,
+      "offset": 1414,
       "length": 3,
       "value": "\"?\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1418,
+      "offset": 1430,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1448,
+      "offset": 1460,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1506,
+      "offset": 1518,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1559,
+      "offset": 1571,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1585,
+      "offset": 1597,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1591,
+      "offset": 1603,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 1756,
+      "offset": 1768,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 2158,
+      "offset": 2170,
       "length": 3,
       "value": "\"&\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 2336,
+      "offset": 2348,
       "length": 3,
       "value": "\"&\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 2432,
+      "offset": 2444,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2448,
+      "offset": 2460,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2491,
+      "offset": 2503,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2555,
+      "offset": 2567,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2603,
+      "offset": 2615,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 3084,
-      "length": 18,
-      "value": "\"BridgeApiService\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
-      "kind": "StringLiteral",
-      "offset": 3119,
+      "offset": 3116,
       "length": 42,
       "value": "\"Modified URLComponents: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 3160,
+      "offset": 3157,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 3251,
-      "length": 18,
-      "value": "\"BridgeApiService\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
-      "kind": "StringLiteral",
-      "offset": 3286,
+      "offset": 3268,
       "length": 49,
       "value": "\"Failed to construct new URL from URLComponents.\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 3402,
-      "length": 18,
-      "value": "\"BridgeApiService\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
-      "kind": "StringLiteral",
-      "offset": 3437,
+      "offset": 3404,
       "length": 20,
       "value": "\"New URL: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 3456,
+      "offset": 3423,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 3602,
-      "length": 18,
-      "value": "\"BridgeApiService\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
-      "kind": "StringLiteral",
-      "offset": 3637,
+      "offset": 3589,
       "length": 33,
       "value": "\"Modified Request: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BridgeApiService.swift",
       "kind": "StringLiteral",
-      "offset": 3669,
+      "offset": 3621,
       "length": 2,
       "value": "\"\""
     },
@@ -7886,105 +7868,105 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 891,
+      "offset": 882,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1066,
+      "offset": 1057,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1205,
+      "offset": 1196,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1397,
+      "offset": 1388,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1590,
+      "offset": 1581,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1799,
+      "offset": 1790,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2256,
+      "offset": 2283,
       "length": 527,
       "value": "\"lastUpdatedTimestampSeconds: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2327,
+      "offset": 2354,
       "length": 27,
       "value": "\"\npingVpnRepeatIntervalMillis: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2395,
+      "offset": 2422,
       "length": 33,
       "value": "\"\nbusinessMatchRepeatIntervalMillis: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2475,
+      "offset": 2502,
       "length": 12,
       "value": "\"\nsnoozeMillis: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2513,
+      "offset": 2540,
       "length": 14,
       "value": "\"\ndeviceLogLevel: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2555,
+      "offset": 2582,
       "length": 37,
       "value": "\"\nfetchDeviceConfigRepeatIntervalMillis: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2643,
+      "offset": 2670,
       "length": 37,
       "value": "\"\nfetchAntiphishingFilterIntervalMillis: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 2758,
       "length": 13,
       "value": "\"\nddClientToken: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/DeviceConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2771,
+      "offset": 2798,
       "length": 12,
       "value": "\"\""
     },
@@ -10875,84 +10857,119 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1351,
+      "offset": 1349,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1398,
       "length": 19,
       "value": "\"moment-request-id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1403,
+      "offset": 1450,
       "length": 18,
       "value": "\"moment-bundle-id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1452,
+      "offset": 1499,
       "length": 16,
       "value": "\"moment-api-key\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1500,
+      "offset": 1547,
       "length": 17,
       "value": "\"moment-pkg-name\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1550,
+      "offset": 1597,
       "length": 18,
       "value": "\"moment-device-id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1646,
       "length": 15,
       "value": "\"moment-locale\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 1694,
       "length": 17,
       "value": "\"moment-platform\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1691,
+      "offset": 1738,
       "length": 11,
       "value": "\"moment-tz\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1737,
+      "offset": 1784,
       "length": 20,
       "value": "\"moment-sdk-version\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1789,
+      "offset": 1836,
       "length": 16,
       "value": "\"moment-service\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1840,
+      "offset": 1887,
       "length": 20,
       "value": "\"moment-retry-count\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1892,
+      "offset": 1941,
+      "length": 19,
+      "value": "\"moment-os-version\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 1995,
+      "length": 20,
+      "value": "\"moment-app-version\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2046,
+      "length": 16,
+      "value": "\"moment-user-id\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2098,
+      "length": 21,
+      "value": "\"moment-device-state\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 2151,
       "length": 12,
       "value": "\"DD-API-KEY\""
     },
@@ -11252,64 +11269,358 @@
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1171,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1187,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1206,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1222,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1241,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1263,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1334,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1360,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1387,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1417,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1445,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
       "kind": "StringLiteral",
-      "offset": 1502,
+      "offset": 1588,
+      "length": 3,
+      "value": "\"A\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 4,
+      "value": "\"NS\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 1650,
+      "length": 7,
+      "value": "\"CNAME\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 1683,
+      "length": 4,
+      "value": "\"MX\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 1715,
+      "length": 6,
+      "value": "\"AAAA\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 1752,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1171,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1187,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1206,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1222,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1241,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1263,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1844,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1860,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1876,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1892,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1913,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1984,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2011,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2038,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2065,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 2206,
+      "length": 4,
+      "value": "\"IN\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 2236,
+      "length": 4,
+      "value": "\"CS\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 2266,
+      "length": 4,
+      "value": "\"CH\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 2296,
+      "length": 4,
+      "value": "\"HS\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 2331,
+      "length": 9,
+      "value": "\"UNKNOWN\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1844,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1860,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1876,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1892,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1913,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
+      "kind": "StringLiteral",
+      "offset": 2794,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
       "kind": "BooleanLiteral",
-      "offset": 1519,
+      "offset": 2811,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
       "kind": "IntegerLiteral",
-      "offset": 1604,
+      "offset": 2896,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
       "kind": "StringLiteral",
-      "offset": 1703,
+      "offset": 2995,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
       "kind": "IntegerLiteral",
-      "offset": 1743,
+      "offset": 3035,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 3259,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
       "kind": "StringLiteral",
-      "offset": 1975,
+      "offset": 3267,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
       "kind": "StringLiteral",
-      "offset": 1983,
+      "offset": 3275,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L3\/DNS.swift",
       "kind": "StringLiteral",
-      "offset": 1990,
+      "offset": 3282,
       "length": 1,
       "value": "\"\""
     },
@@ -12086,70 +12397,77 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3170,
+      "offset": 3291,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3177,
-      "length": 6,
-      "value": "\" closed\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3289,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/UDPHandler.swift",
-      "kind": "StringLiteral",
-      "offset": 3296,
+      "offset": 3298,
       "length": 5,
       "value": "\" error:\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 341,
+      "offset": 810,
+      "length": 33,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 816,
+      "length": 1,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 841,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 1224,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 379,
+      "offset": 1262,
       "length": 7,
       "value": "\"ENTER\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 414,
+      "offset": 1297,
       "length": 6,
       "value": "\"CART\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 451,
+      "offset": 1334,
       "length": 9,
       "value": "\"PAYMENT\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 503,
+      "offset": 1386,
       "length": 20,
       "value": "\"UNRECOGNIZED(\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 521,
+      "offset": 1404,
       "length": 1,
       "value": "\")\""
     },
@@ -12163,182 +12481,182 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 989,
+      "offset": 1012,
       "length": 12,
       "value": "\"authorized\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1051,
+      "offset": 1074,
       "length": 8,
       "value": "\"denied\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1116,
+      "offset": 1139,
       "length": 15,
       "value": "\"notDetermined\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1186,
+      "offset": 1209,
       "length": 13,
       "value": "\"provisional\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1244,
+      "offset": 1267,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1437,
+      "offset": 1460,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1515,
+      "offset": 1538,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1609,
+      "offset": 1632,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1699,
+      "offset": 1722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 1749,
+      "offset": 1772,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1808,
+      "offset": 1831,
       "length": 70,
       "value": "\"[Will send: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1831,
+      "offset": 1854,
       "length": 1,
       "value": "\"] notification authorization status: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 1877,
+      "offset": 1900,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 2113,
+      "offset": 2136,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 2200,
       "length": 13,
       "value": "\"description\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 2225,
+      "offset": 2248,
       "length": 44,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 2234,
+      "offset": 2257,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 2268,
+      "offset": 2291,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 2462,
+      "offset": 2485,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 3213,
+      "offset": 3236,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 3225,
+      "offset": 3248,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "FloatLiteral",
-      "offset": 3598,
+      "offset": 3621,
       "length": 3,
       "value": "5.0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 3942,
+      "offset": 3965,
       "length": 32,
       "value": "\"Failed to download image data:\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 4277,
+      "offset": 4300,
       "length": 25,
       "value": "\"custom_client_image.png\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 4438,
+      "offset": 4461,
       "length": 17,
       "value": "\"remoteThumbnail\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/MomentNotificationCenter\/MomentNotificationCenter.swift",
       "kind": "StringLiteral",
-      "offset": 4690,
+      "offset": 4713,
       "length": 41,
       "value": "\"Error creating notification attachment:\""
     },
@@ -12526,43 +12844,29 @@
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/NetworkConnection.swift",
-      "kind": "StringLiteral",
-      "offset": 2394,
-      "length": 26,
-      "value": "\"Sent \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/NetworkConnection.swift",
-      "kind": "StringLiteral",
-      "offset": 2413,
-      "length": 5,
-      "value": "\" bytes\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/NetworkConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 3123,
+      "offset": 3125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/NetworkConnection.swift",
       "kind": "BooleanLiteral",
-      "offset": 3151,
+      "offset": 3153,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/NetworkConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 4127,
+      "offset": 4129,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/NetworkConnection.swift",
       "kind": "IntegerLiteral",
-      "offset": 4161,
+      "offset": 4163,
       "length": 5,
       "value": "65535"
     },
@@ -13003,84 +13307,84 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "Array",
-      "offset": 1612,
+      "offset": 1794,
       "length": 15,
       "value": "[502, 503, 504]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1805,
+      "offset": 1987,
       "length": 3,
       "value": "502"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1810,
+      "offset": 1992,
       "length": 3,
       "value": "503"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1815,
+      "offset": 1997,
       "length": 3,
       "value": "504"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1927,
+      "offset": 2109,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 2204,
+      "offset": 2386,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 2271,
+      "offset": 2453,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 2354,
+      "offset": 2536,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 2358,
+      "offset": 2540,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 2451,
+      "offset": 2633,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 2646,
+      "offset": 2828,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/TokenAPI\/TokenAPIServiceManager\/TokenAPIComponentFactory.swift",
       "kind": "StringLiteral",
-      "offset": 2675,
+      "offset": 2857,
       "length": 31,
       "value": "\"403 Forbidden - Access Denied\""
     },
@@ -21949,289 +22253,135 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 2320,
+      "offset": 2366,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 2360,
+      "offset": 2406,
       "length": 62,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 2388,
+      "offset": 2434,
       "length": 1,
       "value": "\"][\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 2407,
+      "offset": 2453,
       "length": 1,
       "value": "\"] \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 2421,
+      "offset": 2467,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2435,
+      "offset": 2481,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2441,
+      "offset": 2487,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2775,
+      "offset": 2867,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3021,
+      "offset": 3113,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3087,
+      "offset": 3179,
       "length": 13,
       "value": "1000000000"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3267,
+      "offset": 3359,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3410,
+      "offset": 3502,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3416,
+      "offset": 3508,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3486,
+      "offset": 3578,
       "length": 3,
       "value": "401"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3545,
+      "offset": 3637,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3601,
+      "offset": 3693,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3607,
+      "offset": 3699,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3677,
+      "offset": 3769,
       "length": 3,
       "value": "500"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3683,
+      "offset": 3775,
       "length": 3,
       "value": "600"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3978,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4027,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4059,
-      "length": 102,
-      "value": "\"[HTTP Request]\nURL: \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4113,
-      "length": 6,
-      "value": "\"\nMETHOD: \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4143,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4188,
-      "length": 13,
-      "value": "\"HEADER: [\n\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4280,
-      "length": 18,
-      "value": "\"\t\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4288,
-      "length": 1,
-      "value": "\": \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4295,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4336,
-      "length": 5,
-      "value": "\"]\n\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4783,
-      "length": 20,
-      "value": "\"[HTTP Request End]\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4966,
-      "length": 5,
-      "value": "\"nil\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 4999,
-      "length": 127,
-      "value": "\"[HTTP Response]\nURL: \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5060,
-      "length": 6,
-      "value": "\"\nSTATUS CODE: \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5108,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5155,
-      "length": 13,
-      "value": "\"HEADER: [\n\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5244,
-      "length": 28,
-      "value": "\"\t\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5256,
-      "length": 1,
-      "value": "\": \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5269,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5311,
-      "length": 5,
-      "value": "\"]\n\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5346,
-      "length": 21,
-      "value": "\"[HTTP Response End]\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/APIServiceManager.swift",
-      "kind": "Array",
-      "offset": 5564,
-      "length": 2,
-      "value": "[]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/ConnectionKey.swift",
@@ -23321,107 +23471,121 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 2494,
+      "offset": 1886,
+      "length": 60,
+      "value": "\"Reported business recognition event with domain: \""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1945,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2596,
       "length": 41,
       "value": "\"Failed to send notification sent event:\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 3043,
+      "offset": 2704,
+      "length": 74,
+      "value": "\"Reported notification sent event with notificationId: \""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2777,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3262,
       "length": 45,
       "value": "\"Failed to send notification not sent event:\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4023,
+      "offset": 3374,
+      "length": 47,
+      "value": "\"Notification not sent event sent successfully\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4332,
       "length": 44,
       "value": "\"Failed to send notification clicked event:\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4566,
+      "offset": 4443,
+      "length": 46,
+      "value": "\"Notification clicked event sent successfully\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4964,
       "length": 54,
       "value": "\"Failed to send phishing site(\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 4605,
+      "offset": 5003,
       "length": 1,
       "value": "\") enter event:\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5219,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5261,
-      "length": 5,
-      "value": "false"
+      "kind": "StringLiteral",
+      "offset": 5085,
+      "length": 59,
+      "value": "\"Reported phishing site enter event with domain: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5499,
-      "length": 44,
-      "value": "\"Failed to send device service state event:\""
+      "offset": 5143,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 5812,
+      "offset": 5389,
       "length": 8,
       "value": "\"in_app\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 6098,
+      "offset": 5675,
       "length": 49,
       "value": "\"Failed to send cashback detail page view event:\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 6450,
+      "offset": 6027,
       "length": 5,
       "value": "\"IOS\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
       "kind": "StringLiteral",
-      "offset": 6730,
+      "offset": 6307,
       "length": 45,
       "value": "\"Failed to send in-app cashback click event:\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6949,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7014,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/DataCollection\/DataCollectionManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7084,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/TCP\/TCPSegment.swift",
@@ -23482,196 +23646,203 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 4267,
+      "offset": 3770,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 4419,
+      "offset": 4356,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
+      "kind": "StringLiteral",
+      "offset": 4508,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4592,
+      "offset": 4681,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 5555,
+      "offset": 5644,
       "length": 194,
       "value": "\"window.nativeApi = {\n    postMessage: function(message) {\n        window.webkit.messageHandlers.postMessage.postMessage(message);\n    }\n};\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5856,
+      "offset": 5945,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 5953,
+      "offset": 6042,
       "length": 588,
       "value": "\"(function() {\n    var meta = document.querySelector('meta[name=viewport]');\n    if (meta) {\n        meta.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');\n    } else {\n        var meta = document.createElement('meta');\n        meta.name = 'viewport';\n        meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';\n        document.getElementsByTagName('head')[0].appendChild(meta);\n    }\n})();\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6759,
+      "offset": 6848,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7058,
+      "offset": 7147,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7265,
+      "offset": 7354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7321,
+      "offset": 7410,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7379,
+      "offset": 7468,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 7469,
+      "offset": 7558,
       "length": 13,
       "value": "\"postMessage\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 8039,
+      "offset": 8128,
       "length": 13,
       "value": "\"Coordinator\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 9328,
+      "offset": 9417,
       "length": 13,
       "value": "\"postMessage\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 9436,
+      "offset": 9525,
       "length": 27,
       "value": "\"Invalid message received.\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "Array",
-      "offset": 9655,
+      "offset": 9744,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 9721,
+      "offset": 9810,
       "length": 8,
       "value": "\"callId\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 9786,
+      "offset": 9875,
       "length": 8,
       "value": "\"method\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 9858,
+      "offset": 9947,
       "length": 41,
       "value": "\"Failed to parse message. \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 9898,
+      "offset": 9987,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 9992,
+      "offset": 10081,
       "length": 9,
       "value": "\"payload\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "Dictionary",
-      "offset": 10024,
+      "offset": 10113,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 10069,
+      "offset": 10158,
       "length": 41,
       "value": "\"Received message with method: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 10109,
+      "offset": 10198,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 10272,
+      "offset": 10361,
       "length": 23,
       "value": "\"cashbackLinkUrlOpened\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 10417,
+      "offset": 10506,
       "length": 29,
       "value": "\"Unhandled method: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 10445,
+      "offset": 10534,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackView.swift",
       "kind": "StringLiteral",
-      "offset": 7951,
+      "offset": 8040,
       "length": 11,
       "value": "\"Moment.Coordinator\""
     },
@@ -23846,14 +24017,14 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Info\/UserInfo.swift",
       "kind": "StringLiteral",
-      "offset": 388,
+      "offset": 225,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Info\/UserInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 423,
+      "offset": 260,
       "length": 5,
       "value": "false"
     },
@@ -23874,21 +24045,21 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/MomentServiceCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 4486,
+      "offset": 4045,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/MomentServiceCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 6073,
+      "offset": 4826,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/MomentServiceCore.swift",
       "kind": "IntegerLiteral",
-      "offset": 7311,
+      "offset": 6382,
       "length": 2,
       "value": "20"
     },
@@ -24084,112 +24255,105 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "Array",
-      "offset": 1770,
+      "offset": 2308,
       "length": 36,
       "value": "[401, 502, 503, 504]"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1984,
+      "offset": 2522,
       "length": 3,
       "value": "502"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1989,
+      "offset": 2527,
       "length": 3,
       "value": "503"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 1994,
+      "offset": 2532,
       "length": 3,
       "value": "504"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 2106,
+      "offset": 2644,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "StringLiteral",
-      "offset": 2458,
+      "offset": 2996,
       "length": 26,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "StringLiteral",
-      "offset": 2483,
-      "length": 24,
+      "offset": 3021,
+      "length": 61,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
-      "kind": "StringLiteral",
-      "offset": 2506,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 2646,
+      "offset": 3206,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 2713,
+      "offset": 3273,
       "length": 4,
       "value": "60.0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 2796,
+      "offset": 3356,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 2800,
+      "offset": 3360,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "FloatLiteral",
-      "offset": 2893,
+      "offset": 3453,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "IntegerLiteral",
-      "offset": 3089,
+      "offset": 3649,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "StringLiteral",
-      "offset": 3118,
+      "offset": 3678,
       "length": 31,
       "value": "\"403 Forbidden - Access Denied\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIComponentFactory.swift",
       "kind": "BooleanLiteral",
-      "offset": 3401,
+      "offset": 3961,
       "length": 4,
       "value": "true"
     },
@@ -25058,13 +25222,13 @@
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Utils.swift",
       "kind": "StringLiteral",
       "offset": 3623,
-      "length": 2,
-      "value": "\"\""
+      "length": 33,
+      "value": "\"String(validatingCString: cs!)!\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Utils.swift",
       "kind": "IntegerLiteral",
-      "offset": 3736,
+      "offset": 3767,
       "length": 1,
       "value": "0"
     },
@@ -26660,51 +26824,58 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/SDKInfo.swift",
       "kind": "StringLiteral",
-      "offset": 386,
+      "offset": 411,
       "length": 12,
       "value": "\"project_id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/SDKInfo.swift",
       "kind": "StringLiteral",
-      "offset": 450,
+      "offset": 475,
       "length": 9,
       "value": "\"user_id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/SDKInfo.swift",
       "kind": "StringLiteral",
-      "offset": 508,
+      "offset": 533,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/SDKInfo.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 594,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/SDKInfo.swift",
       "kind": "StringLiteral",
-      "offset": 635,
+      "offset": 660,
       "length": 18,
       "value": "\"app_package_name\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/SDKInfo.swift",
       "kind": "StringLiteral",
-      "offset": 710,
+      "offset": 735,
       "length": 13,
       "value": "\"app_version\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/SDKInfo.swift",
       "kind": "StringLiteral",
-      "offset": 776,
+      "offset": 801,
       "length": 12,
       "value": "\"os_version\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/SDKInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 865,
+      "length": 11,
+      "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/ErrorView.swift",
@@ -26744,77 +26915,77 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 113,
+      "offset": 132,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 248,
+      "offset": 267,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 466,
+      "offset": 485,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 625,
+      "offset": 644,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 742,
+      "offset": 761,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 889,
+      "offset": 908,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 1184,
+      "offset": 1203,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 1706,
+      "offset": 1725,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 1713,
+      "offset": 1732,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 1749,
+      "offset": 1768,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Checksum.swift",
       "kind": "IntegerLiteral",
-      "offset": 1765,
+      "offset": 1784,
       "length": 6,
       "value": "0xFFFF"
     },
@@ -27150,182 +27321,196 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 857,
+      "offset": 983,
       "length": 9,
       "value": "\"project\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 920,
+      "offset": 1046,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 1145,
+      "offset": 1271,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 1157,
+      "offset": 1283,
       "length": 4,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1385,
+      "offset": 1511,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 1479,
+      "offset": 1605,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 2128,
+      "offset": 1693,
+      "length": 29,
+      "value": "\"NOTIFICATION_ENABLED_DEVICE\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 24,
+      "value": "\"SERVICE_ENABLED_DEVICE\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 2719,
+      "length": 5,
+      "value": "\"IOS\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
+      "kind": "StringLiteral",
+      "offset": 2775,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 2160,
-      "length": 15,
-      "value": "\"Authorization\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
-      "kind": "StringLiteral",
-      "offset": 2177,
+      "offset": 2846,
       "length": 28,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 2204,
+      "offset": 2873,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2513,
+      "offset": 3182,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 2995,
+      "offset": 3664,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3011,
+      "offset": 3680,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3025,
+      "offset": 3694,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3296,
+      "offset": 3965,
       "length": 31,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3312,
+      "offset": 3981,
       "length": 1,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3326,
+      "offset": 3995,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3450,
+      "offset": 4119,
       "length": 16,
       "value": "\"UNKNOWN_LOCALE\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3593,
+      "offset": 4262,
       "length": 7,
       "value": "\"BASIC\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3632,
+      "offset": 4301,
       "length": 10,
       "value": "\"CASHBACK\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3673,
+      "offset": 4342,
       "length": 9,
       "value": "\"TRINITY\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3713,
+      "offset": 4382,
       "length": 9,
       "value": "\"TRIGGER\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3775,
+      "offset": 4444,
       "length": 17,
       "value": "\"UNKNOWN_FEATURE\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3927,
+      "offset": 4596,
       "length": 5,
       "value": "\"VPN\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 3964,
+      "offset": 4633,
       "length": 11,
       "value": "\"APP_USAGE\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/BaseService.swift",
       "kind": "StringLiteral",
-      "offset": 4028,
+      "offset": 4697,
       "length": 17,
       "value": "\"UNKNOWN_SERVICE\""
     },
@@ -28305,119 +28490,77 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 1601,
+      "offset": 1662,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 1909,
+      "offset": 1970,
       "length": 61,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 1953,
+      "offset": 2014,
       "length": 2,
       "value": "\" is not a number\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 2031,
+      "offset": 2092,
       "length": 14,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2042,
+      "offset": 2103,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 2044,
+      "offset": 2105,
       "length": 64,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3019,
-      "length": 58,
-      "value": "\"Invalid httpMethod(\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3052,
-      "length": 1,
-      "value": "\") or body(body: \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 3075,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 5177,
+      "offset": 5157,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 5746,
+      "offset": 5726,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
       "kind": "StringLiteral",
-      "offset": 5935,
-      "length": 12,
-      "value": "\"NO_USER_ID\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6798,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 6992,
-      "length": 9,
-      "value": "\"UNKNOWN\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/MomentAPIServiceManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7193,
+      "offset": 5915,
       "length": 12,
       "value": "\"NO_USER_ID\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Info\/IPCMessage.swift",
       "kind": "StringLiteral",
-      "offset": 302,
+      "offset": 393,
       "length": 29,
       "value": "\"UserInfoUpdate: \""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Info\/IPCMessage.swift",
       "kind": "StringLiteral",
-      "offset": 330,
+      "offset": 421,
       "length": 1,
       "value": "\"\""
     },
@@ -28830,56 +28973,28 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Utils\/TimestampHolder.swift",
       "kind": "IntegerLiteral",
-      "offset": 711,
+      "offset": 757,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Utils\/TimestampHolder.swift",
       "kind": "StringLiteral",
-      "offset": 942,
+      "offset": 988,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Utils\/TimestampHolder.swift",
       "kind": "StringLiteral",
-      "offset": 949,
+      "offset": 995,
       "length": 1,
       "value": "\" - time updated\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Utils\/TimestampHolder.swift",
       "kind": "BooleanLiteral",
-      "offset": 986,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Utils\/TimestampHolder.swift",
-      "kind": "StringLiteral",
-      "offset": 1036,
-      "length": 73,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Utils\/TimestampHolder.swift",
-      "kind": "StringLiteral",
-      "offset": 1043,
-      "length": 2,
-      "value": "\" is snoozed for \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Utils\/TimestampHolder.swift",
-      "kind": "StringLiteral",
-      "offset": 1100,
-      "length": 7,
-      "value": "\" seconds\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Utils\/TimestampHolder.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1161,
+      "offset": 1103,
       "length": 5,
       "value": "false"
     },
@@ -29033,63 +29148,63 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/MatchService.swift",
       "kind": "StringLiteral",
-      "offset": 474,
+      "offset": 473,
       "length": 16,
       "value": "\"business_match\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/MatchService.swift",
       "kind": "StringLiteral",
-      "offset": 542,
-      "length": 15,
-      "value": "\"business_data\""
+      "offset": 540,
+      "length": 14,
+      "value": "\"match_action\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/MatchService.swift",
       "kind": "StringLiteral",
-      "offset": 617,
+      "offset": 614,
       "length": 25,
       "value": "\"business_match_partners\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/MatchService.swift",
       "kind": "StringLiteral",
-      "offset": 701,
+      "offset": 698,
       "length": 31,
       "value": "\"device_notification_for_match\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/MatchService.swift",
       "kind": "StringLiteral",
-      "offset": 1078,
+      "offset": 1074,
       "length": 12,
       "value": "\"businessId\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/MatchService.swift",
       "kind": "StringLiteral",
-      "offset": 1155,
+      "offset": 1151,
       "length": 19,
       "value": "\"activityMatchType\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/MatchService.swift",
       "kind": "StringLiteral",
-      "offset": 1337,
+      "offset": 1333,
       "length": 12,
       "value": "\"businessId\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/MatchService.swift",
       "kind": "StringLiteral",
-      "offset": 1414,
+      "offset": 1410,
       "length": 19,
       "value": "\"activityMatchType\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/MatchService.swift",
       "kind": "StringLiteral",
-      "offset": 1505,
+      "offset": 1501,
       "length": 8,
       "value": "\"userId\""
     },
@@ -29320,16 +29435,23 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
       "kind": "StringLiteral",
-      "offset": 480,
+      "offset": 596,
       "length": 32,
       "value": "\"lastDeviceStateReportTimestamp\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
       "kind": "StringLiteral",
-      "offset": 554,
+      "offset": 670,
       "length": 14,
       "value": "\"deviceConfig\""
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
+      "kind": "StringLiteral",
+      "offset": 723,
+      "length": 11,
+      "value": "\"matchInfo\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/device_service_state.pb.swift",
@@ -32840,29 +32962,8 @@
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/NetworkConnectionCache.swift",
-      "kind": "StringLiteral",
-      "offset": 979,
-      "length": 15,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/NetworkConnectionCache.swift",
-      "kind": "StringLiteral",
-      "offset": 993,
-      "length": 4,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/NetworkConnectionCache.swift",
-      "kind": "StringLiteral",
-      "offset": 996,
-      "length": 20,
-      "value": "\"Connection evicted\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/L4\/UDP\/NetworkConnectionCache.swift",
       "kind": "BooleanLiteral",
-      "offset": 1109,
+      "offset": 1111,
       "length": 4,
       "value": "true"
     },
