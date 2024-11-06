@@ -306,7 +306,6 @@ SWIFT_CLASS("_TtC6Moment22CashbackViewController")
 @interface CashbackViewController : UIViewController
 - (void)viewDidLoad;
 - (void)viewWillLayoutSubviews;
-- (void)viewWillDisappear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

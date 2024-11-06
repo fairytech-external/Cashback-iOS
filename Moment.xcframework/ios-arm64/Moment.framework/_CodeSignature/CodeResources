@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Moment-Swift.h</key>
 		<data>
-		rq/waoQDrEamHnSC2Yfyg6uY4Os=
+		0XsolWoqqmaTxMku6NEL8D0nZ2c=
 		</data>
 		<key>Headers/Moment.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		gJ5icfyLefLhL18pGiFlSJu/dUg=
+		Oz7+EQ21l4AnGXHSPiFe/TuoeNI=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		JQxYkatWjYgSFvuf9m3C60RGzy0=
+		zNM0Yp3zmuODFU75RC78wp5ijjs=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		JQxYkatWjYgSFvuf9m3C60RGzy0=
+		zNM0Yp3zmuODFU75RC78wp5ijjs=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		CnLq6STtmdvlAKZ4tUSlt99LRK8=
+		/XpMJ+UCQjPMF5CyjM9bpeYdORM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mW+sjUr0C59H1VSRtsMcEqeopOhQmLXcY9wAK0PiAVU=
+			jhxK8os4HbSA8k5s2nEyAKS587l9wPeN0LEJXUsMmFk=
 			</data>
 		</dict>
 		<key>Headers/Moment.h</key>
@@ -65,14 +65,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cByEDfymoY+HboZl//aPMh/NcXx2ubw5NAJnPiDFslo=
+			rZaNJP78siAAhHn2X1SH7sF3ALNPlilmb8sLr+lLgAw=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2twwGlZlTAyfajDfKyKVR3MyjH9Lt8xXKx/qz1bnwhs=
+			kRiZAR3S+0gUYGAUP++jm62VOLh5NL5fmWzu7AWCDbk=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -86,14 +86,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2twwGlZlTAyfajDfKyKVR3MyjH9Lt8xXKx/qz1bnwhs=
+			kRiZAR3S+0gUYGAUP++jm62VOLh5NL5fmWzu7AWCDbk=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ph2/vquOS6iNAl3EAc/t56jhk2i9cRXplVmymcspq70=
+			6CdA7Rh59aA2kENFXxdBIlkCv20Ddyg0Qhvls+anmvs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
