@@ -509,6 +509,65 @@
               "ObjC",
               "Custom",
               "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillLayoutSubviews",
+            "printedName": "viewWillLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Moment@objc(cs)CashbackViewController(im)viewWillLayoutSubviews",
+            "mangledName": "$s6Moment22CashbackViewControllerC22viewWillLayoutSubviewsyyF",
+            "moduleName": "Moment",
+            "overriding": true,
+            "objc_name": "viewWillLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Moment@objc(cs)CashbackViewController(im)viewWillDisappear:",
+            "mangledName": "$s6Moment22CashbackViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "Moment",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
@@ -9135,7 +9194,35 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1562,
+      "offset": 614,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 954,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1013,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1029,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/Cashback\/View\/CashbackViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2197,
       "length": 5,
       "value": "false"
     },
@@ -29435,21 +29522,21 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 671,
       "length": 32,
       "value": "\"lastDeviceStateReportTimestamp\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
       "kind": "StringLiteral",
-      "offset": 670,
+      "offset": 745,
       "length": 14,
       "value": "\"deviceConfig\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
       "kind": "StringLiteral",
-      "offset": 723,
+      "offset": 798,
       "length": 11,
       "value": "\"matchInfo\""
     },
