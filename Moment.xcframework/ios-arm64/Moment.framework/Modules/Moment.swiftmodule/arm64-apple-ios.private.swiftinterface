@@ -8,8 +8,8 @@ import CryptoKit
 import Darwin
 import Foundation
 import MachO
+@_exported import Moment
 import Network
-import NetworkExtension
 import OSLog
 import Security
 import Swift
