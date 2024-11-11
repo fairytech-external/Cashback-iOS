@@ -8,13 +8,9 @@
 		<data>
 		oRzO2DqtodXZ1O5FLA9DaFQ59n8=
 		</data>
-		<key>Headers/Moment.h</key>
-		<data>
-		1ICCn4sbj9oqgZnOYCitqmwMKnA=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		StOdJB28EasljtEE3AN//KDFVuM=
+		sddlqVINCY+OYrr/EbbOQ6W6wsM=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -22,7 +18,7 @@
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		eMCEdgBuLzIiL8QBp8uG0fqjEYI=
+		oRUPpYLsqK2pqi1UbL+TFPMQJcw=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,15 +26,15 @@
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		eMCEdgBuLzIiL8QBp8uG0fqjEYI=
+		oRUPpYLsqK2pqi1UbL+TFPMQJcw=
 		</data>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		b0YEnu3bdLwCxfbZLyscVQ/DwAQ=
+		Fo/7CWyXgFAHRkM6Nm0RkNsz++c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		5Lojz8Sc3Hp7Oeoafwt7DFJQvOo=
+		HrnyE8TQPim06ut8rvQz6U6ql7Q=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -54,13 +50,6 @@
 			zVmKNxTbqTGiOXQPgb1QmXz2gnFMSnl5PkZdv1sn+l0=
 			</data>
 		</dict>
-		<key>Headers/Moment.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CSqmuzUtjK/aVLQZdpAgjAG8qQDi5riaGYyNOzQGMEU=
-			</data>
-		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
@@ -72,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VeuC14QGf0nAWO18so4Z22zwbkFlq6pLdv3E6YvKndw=
+			sJ0xVQTO3G0ygNAerZHuF06WdFsrG3O0FosUS6FE7eE=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -86,21 +75,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VeuC14QGf0nAWO18so4Z22zwbkFlq6pLdv3E6YvKndw=
+			sJ0xVQTO3G0ygNAerZHuF06WdFsrG3O0FosUS6FE7eE=
 			</data>
 		</dict>
 		<key>Modules/Moment.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7eer2JOvEg6ECJ2tlYyMzZhcKgfXySXK7PoKidf/Jkk=
+			fg1S/W84QT9BsSkra4FNRMuDm7ifUq27z/TDlVFwIug=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EggJR34ajyR0YyLtR75A2cWOajWSuO6QyVVAXY2PRck=
+			W/XsNY8zNlE0YVcsYGF4miwT4tJJQBIAApVp30wtHzA=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
