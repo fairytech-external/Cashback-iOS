@@ -1306,13 +1306,446 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "MatchType",
+        "printedName": "MatchType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enter",
+            "printedName": "enter",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Moment.MatchType.Type) -> Moment.MatchType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MatchType",
+                    "printedName": "Moment.MatchType",
+                    "usr": "s:6Moment9MatchTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Moment.MatchType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MatchType",
+                        "printedName": "Moment.MatchType",
+                        "usr": "s:6Moment9MatchTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Moment9MatchTypeO5enteryA2CmF",
+            "mangledName": "$s6Moment9MatchTypeO5enteryA2CmF",
+            "moduleName": "Moment"
+          },
+          {
+            "kind": "Var",
+            "name": "cart",
+            "printedName": "cart",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Moment.MatchType.Type) -> Moment.MatchType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MatchType",
+                    "printedName": "Moment.MatchType",
+                    "usr": "s:6Moment9MatchTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Moment.MatchType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MatchType",
+                        "printedName": "Moment.MatchType",
+                        "usr": "s:6Moment9MatchTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Moment9MatchTypeO4cartyA2CmF",
+            "mangledName": "$s6Moment9MatchTypeO4cartyA2CmF",
+            "moduleName": "Moment"
+          },
+          {
+            "kind": "Var",
+            "name": "payment",
+            "printedName": "payment",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Moment.MatchType.Type) -> Moment.MatchType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MatchType",
+                    "printedName": "Moment.MatchType",
+                    "usr": "s:6Moment9MatchTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Moment.MatchType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MatchType",
+                        "printedName": "Moment.MatchType",
+                        "usr": "s:6Moment9MatchTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Moment9MatchTypeO7paymentyA2CmF",
+            "mangledName": "$s6Moment9MatchTypeO7paymentyA2CmF",
+            "moduleName": "Moment"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MatchType",
+                "printedName": "Moment.MatchType",
+                "usr": "s:6Moment9MatchTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MatchType",
+                "printedName": "Moment.MatchType",
+                "usr": "s:6Moment9MatchTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Moment9MatchTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6Moment9MatchTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "Moment",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Moment9MatchTypeO9hashValueSivp",
+            "mangledName": "$s6Moment9MatchTypeO9hashValueSivp",
+            "moduleName": "Moment",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment9MatchTypeO9hashValueSivg",
+                "mangledName": "$s6Moment9MatchTypeO9hashValueSivg",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Moment9MatchTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6Moment9MatchTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "Moment",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Moment9MatchTypeO",
+        "mangledName": "$s6Moment9MatchTypeO",
         "moduleName": "Moment",
         "declAttributes": [
-          "RawDocComment"
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RecognitionInfo",
+        "printedName": "RecognitionInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "businessId",
+            "printedName": "businessId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Moment15RecognitionInfoV10businessIdSSvp",
+            "mangledName": "$s6Moment15RecognitionInfoV10businessIdSSvp",
+            "moduleName": "Moment",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment15RecognitionInfoV10businessIdSSvg",
+                "mangledName": "$s6Moment15RecognitionInfoV10businessIdSSvg",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "matchType",
+            "printedName": "matchType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MatchType",
+                "printedName": "Moment.MatchType",
+                "usr": "s:6Moment9MatchTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Moment15RecognitionInfoV9matchTypeAA05MatchE0Ovp",
+            "mangledName": "$s6Moment15RecognitionInfoV9matchTypeAA05MatchE0Ovp",
+            "moduleName": "Moment",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MatchType",
+                    "printedName": "Moment.MatchType",
+                    "usr": "s:6Moment9MatchTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment15RecognitionInfoV9matchTypeAA05MatchE0Ovg",
+                "mangledName": "$s6Moment15RecognitionInfoV9matchTypeAA05MatchE0Ovg",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Moment15RecognitionInfoV9timestamp10Foundation4DateVvp",
+            "mangledName": "$s6Moment15RecognitionInfoV9timestamp10Foundation4DateVvp",
+            "moduleName": "Moment",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment15RecognitionInfoV9timestamp10Foundation4DateVvg",
+                "mangledName": "$s6Moment15RecognitionInfoV9timestamp10Foundation4DateVvg",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customData",
+            "printedName": "customData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Moment15RecognitionInfoV10customDataSSvp",
+            "mangledName": "$s6Moment15RecognitionInfoV10customDataSSvp",
+            "moduleName": "Moment",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Moment15RecognitionInfoV10customDataSSvg",
+                "mangledName": "$s6Moment15RecognitionInfoV10customDataSSvg",
+                "moduleName": "Moment",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6Moment15RecognitionInfoV",
+        "mangledName": "$s6Moment15RecognitionInfoV",
+        "moduleName": "Moment",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
         ]
       },
       {
@@ -1441,23 +1874,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UserNotifications",
-        "printedName": "UserNotifications",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Moment"
       },
       {
         "kind": "Import",
@@ -2046,26 +2462,6 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftProtobuf",
-        "printedName": "SwiftProtobuf",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "AccessControl"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2144,16 +2540,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Moment"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Moment",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -9411,21 +9797,21 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/ConfigManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 2097,
+      "offset": 2103,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/ConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 3126,
+      "offset": 3138,
       "length": 15,
       "value": "\"ConfigManager\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Config\/ConfigManager.swift",
       "kind": "StringLiteral",
-      "offset": 3143,
+      "offset": 3155,
       "length": 33,
       "value": "\"Failed to update device config:\""
     },
@@ -11096,20 +11482,6 @@
       "value": "\" seconds remaining\""
     },
     {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/MatchHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 309,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/MatchHistory.swift",
-      "kind": "IntegerLiteral",
-      "offset": 705,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/Network\/Address.swift",
       "kind": "StringLiteral",
       "offset": 336,
@@ -11203,63 +11575,63 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 810,
+      "offset": 895,
       "length": 33,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 816,
+      "offset": 901,
       "length": 1,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 841,
+      "offset": 926,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1224,
+      "offset": 1309,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1262,
+      "offset": 1347,
       "length": 7,
       "value": "\"ENTER\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1297,
+      "offset": 1382,
       "length": 6,
       "value": "\"CART\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1334,
+      "offset": 1419,
       "length": 9,
       "value": "\"PAYMENT\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1386,
+      "offset": 1471,
       "length": 20,
       "value": "\"UNRECOGNIZED(\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/MomentProducts\/Basic\/BusinessInfo.swift",
       "kind": "StringLiteral",
-      "offset": 1404,
+      "offset": 1489,
       "length": 1,
       "value": "\")\""
     },
@@ -12144,69 +12516,6 @@
       "offset": 2857,
       "length": 31,
       "value": "\"403 Forbidden - Access Denied\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 273,
-      "length": 24,
-      "value": "\"NotificationController\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 1370,
-      "length": 71,
-      "value": "\"Sending notification for \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 1414,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 1440,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 1587,
-      "length": 66,
-      "value": "\"No notification for \""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 1626,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 1652,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 1923,
-      "length": 30,
-      "value": "\"Failed to send notification:\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Notification\/NotificationController\/NotificationController.swift",
-      "kind": "StringLiteral",
-      "offset": 150,
-      "length": 22,
-      "value": "\"Moment.NotificationController\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Host\/VPN\/VPNInfo.swift",
@@ -23593,184 +23902,9 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/DeviceService.swift",
       "kind": "StringLiteral",
-      "offset": 361,
-      "length": 14,
-      "value": "\"device_state\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/APIService\/MomentAPIServiceManager\/Services\/DeviceService.swift",
-      "kind": "StringLiteral",
-      "offset": 420,
+      "offset": 277,
       "length": 15,
       "value": "\"device_config\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 2473,
-      "length": 37,
-      "value": "\"moment.proto.device.device_state.v1\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 2744,
-      "length": 27,
-      "value": "\".UpdateDeviceStateRequest\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2835,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 2855,
-      "length": 11,
-      "value": "\"device_id\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2873,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 2893,
-      "length": 14,
-      "value": "\"device_state\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2914,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 2934,
-      "length": 9,
-      "value": "\"user_id\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4532,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4624,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4720,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5416,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5543,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5678,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6207,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6283,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6349,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6371,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6419,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6486,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6504,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "StringLiteral",
-      "offset": 6749,
-      "length": 28,
-      "value": "\".UpdateDeviceStateResponse\""
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7357,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Proto\/Swift\/device\/device_state\/v1\/update_device_state.pb.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7375,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/NetworkExtension\/Core\/PacketUtils\/Utils.swift",
@@ -27163,21 +27297,21 @@
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
       "kind": "StringLiteral",
-      "offset": 671,
+      "offset": 677,
       "length": 32,
       "value": "\"lastDeviceStateReportTimestamp\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
       "kind": "StringLiteral",
-      "offset": 745,
+      "offset": 751,
       "length": 14,
       "value": "\"deviceConfig\""
     },
     {
       "filePath": "\/Users\/junkyukang\/Desktop\/GitHub\/ios\/Moment\/Sources\/Moment\/Shared\/Utils\/StorageCache.swift",
       "kind": "StringLiteral",
-      "offset": 798,
+      "offset": 804,
       "length": 11,
       "value": "\"matchInfo\""
     },
