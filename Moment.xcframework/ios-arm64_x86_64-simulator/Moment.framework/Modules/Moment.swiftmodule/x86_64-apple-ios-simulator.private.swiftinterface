@@ -49,3 +49,21 @@ extension Moment.CashbackError : Foundation.LocalizedError {
   public static let notificationKey: Swift.String
   @objc deinit
 }
+public enum MatchType : Swift.Sendable {
+  case enter
+  case cart
+  case payment
+  public static func == (a: Moment.MatchType, b: Moment.MatchType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct RecognitionInfo : Swift.Sendable {
+  public let businessId: Swift.String
+  public let matchType: Moment.MatchType
+  public let timestamp: Foundation.Date
+  public let customData: Swift.String
+}
+extension Moment.MatchType : Swift.Equatable {}
+extension Moment.MatchType : Swift.Hashable {}
