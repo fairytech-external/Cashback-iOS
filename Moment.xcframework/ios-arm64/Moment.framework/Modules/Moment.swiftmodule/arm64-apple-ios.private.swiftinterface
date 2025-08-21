@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Moment
-// swift-module-flags-ignorable: -enable-experimental-feature AccessLevelOnImport -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature AccessLevelOnImport -enable-upcoming-feature StrictConcurrency -enable-bare-slash-regex -module-name Moment
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Combine
 import CoreFoundation
 import CryptoKit
@@ -10,7 +10,6 @@ import Foundation
 import MachO
 import Network
 import OSLog
-import Security
 import Swift
 import SwiftUI
 import UIKit
@@ -23,16 +22,25 @@ public protocol CashbackViewControllerDelegate : AnyObject {
   func cashbackViewControllerDidFinish(_ viewController: Moment.CashbackViewController)
   func cashbackViewController(_ viewController: Moment.CashbackViewController, didFailWithError error: Moment.CashbackError)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CashbackViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: (any Moment.CashbackViewControllerDelegate)?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor public class CashbackViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor weak public var delegate: (any Moment.CashbackViewControllerDelegate)?
+  @_Concurrency.MainActor public var redirectTo: Swift.String?
+  @_Concurrency.MainActor @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
+}
+public struct MomentCashbackCallbackPayload : Swift.Sendable {
+  public let success: Swift.Bool
+  public let message: Swift.String
+  public init(success: Swift.Bool, message: Swift.String)
 }
 @_hasMissingDesignatedInitializers final public class MomentCashbackService : Swift.Sendable {
   public static let shared: Moment.MomentCashbackService
+  public static func setUserId(_ userId: Swift.String, onComplete: @escaping @_Concurrency.MainActor @Sendable (Moment.MomentCashbackCallbackPayload) -> Swift.Void)
+  @available(*, deprecated, message: "Use setUserId(_:onComplete:) instead to handle success/failure callbacks.")
   public static func setUserId(_ userId: Swift.String)
+  public static func listCashback(onComplete: @escaping @_Concurrency.MainActor @Sendable (Swift.Result<[Moment.CashbackProgramType], any Swift.Error>) -> Swift.Void)
   @objc deinit
 }
 public enum CashbackError : Swift.Error {
@@ -45,7 +53,8 @@ extension Moment.CashbackError : Foundation.LocalizedError {
   }
 }
 @_hasMissingDesignatedInitializers public class MomentConstants {
-  public static let notificationKey: Swift.String
+  public static let fairyNotification: Swift.String
+  public static let fairyUrl: Swift.String
   @objc deinit
 }
 public enum MatchType : Swift.Sendable {
@@ -64,5 +73,98 @@ public struct RecognitionInfo : Swift.Sendable {
   public let timestamp: Foundation.Date
   public let customData: Swift.String
 }
+@_Concurrency.MainActor @preconcurrency public struct CashbackUI : SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public init(onFinish: (() -> Swift.Void)? = nil, onFailure: ((Moment.CashbackError) -> Swift.Void)? = nil, redirectTo: Swift.String? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s6Moment10CashbackUIV4bodyQrvp", 0) __
+}
+public enum BusinessCategoryType : Swift.Int, Swift.Sendable, Swift.CaseIterable {
+  case unknown, food, mall, culture, travel, electronics, infant, health, fashion, beauty, finance, living, education, etc
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [Moment.BusinessCategoryType]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [Moment.BusinessCategoryType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum CashbackCommissionType : Swift.Int, Swift.Sendable, Swift.CaseIterable {
+  case unknown, cps, cpa, cpc, cpm
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [Moment.CashbackCommissionType]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [Moment.CashbackCommissionType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum CashbackCommissionUnit : Swift.Int, Swift.Sendable, Swift.CaseIterable {
+  case unknown
+  case percentage
+  case krw
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [Moment.CashbackCommissionUnit]
+  public typealias RawValue = Swift.Int
+  nonisolated public static var allCases: [Moment.CashbackCommissionUnit] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct CashbackCommission : Swift.Sendable, Swift.Equatable {
+  public let amount: Swift.String
+  public let unit: Moment.CashbackCommissionUnit
+  public init(amount: Swift.String, unit: Moment.CashbackCommissionUnit)
+  public static func == (a: Moment.CashbackCommission, b: Moment.CashbackCommission) -> Swift.Bool
+}
+public struct CashbackProductType : Swift.Sendable, Swift.Equatable {
+  public let target: Swift.String
+  public let startDateTimestampMillis: Swift.Int64
+  public let endDateTimestampMillis: Swift.Int64
+  public let commissionType: Moment.CashbackCommissionType
+  public let commission: Moment.CashbackCommission?
+  public init(target: Swift.String, startDateTimestampMillis: Swift.Int64, endDateTimestampMillis: Swift.Int64, commissionType: Moment.CashbackCommissionType, commission: Moment.CashbackCommission?)
+  public static func == (a: Moment.CashbackProductType, b: Moment.CashbackProductType) -> Swift.Bool
+}
+public struct CashbackProgramType : Swift.Sendable, Swift.Equatable {
+  public let businessID: Swift.String
+  public let businessName: Swift.String
+  public let businessImageURL: Swift.String
+  public let category: Moment.BusinessCategoryType
+  public let url: Swift.String
+  public let programName: Swift.String
+  public let displayDisallowedCases: Swift.String
+  public let displayCaution: Swift.String
+  public let products: [Moment.CashbackProductType]
+  public let ranking: Swift.Int64
+  public let categoryName: Swift.String
+  public let primaryText: Swift.String
+  public init(businessID: Swift.String, businessName: Swift.String, businessImageURL: Swift.String, category: Moment.BusinessCategoryType, url: Swift.String, programName: Swift.String, displayDisallowedCases: Swift.String, displayCaution: Swift.String, products: [Moment.CashbackProductType], ranking: Swift.Int64, categoryName: Swift.String, primaryText: Swift.String)
+  public static func == (a: Moment.CashbackProgramType, b: Moment.CashbackProgramType) -> Swift.Bool
+}
+#if compiler(>=5.3) && $RetroactiveAttribute
+extension Foundation.UserDefaults : @unchecked @retroactive Swift.Sendable {
+}
+#else
+extension Foundation.UserDefaults : @unchecked Swift.Sendable {
+}
+#endif
 extension Moment.MatchType : Swift.Equatable {}
 extension Moment.MatchType : Swift.Hashable {}
+extension Moment.CashbackUI : Swift.Sendable {}
+extension Moment.BusinessCategoryType : Swift.Equatable {}
+extension Moment.BusinessCategoryType : Swift.Hashable {}
+extension Moment.BusinessCategoryType : Swift.RawRepresentable {}
+extension Moment.CashbackCommissionType : Swift.Equatable {}
+extension Moment.CashbackCommissionType : Swift.Hashable {}
+extension Moment.CashbackCommissionType : Swift.RawRepresentable {}
+extension Moment.CashbackCommissionUnit : Swift.Equatable {}
+extension Moment.CashbackCommissionUnit : Swift.Hashable {}
+extension Moment.CashbackCommissionUnit : Swift.RawRepresentable {}
